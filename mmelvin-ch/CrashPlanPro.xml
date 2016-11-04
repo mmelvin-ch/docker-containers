@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>CrashPlan</Name>
-  <Repository>gfjardim/crashplan</Repository>
-  <Registry>https://registry.hub.docker.com/u/gfjardim/crashplan/</Registry>
+  <Repository>mmelvin-ch/crashplanpro</Repository>
   <Network>host</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>&amp;lt;img src='http://i.imgur.com/FEDXhd6.png' width='120px'&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+  <Overview>&amp;lt;img src='http://i.imgur.com/gsaAiyq.jpg' width='120px'&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
 &#xD;
-With unlimited, set-it-and-get-at-it backup to multiple destinations, plus anywhere, anytime access to ALL your files, CrashPlan is the simplest, surest way to protect your digital life.[br][br]&#xD;
+Easy, automatic backup that protects your business data CrashPlan PRO for Small Business - designed for 1 to 99 devices.[br][br]&#xD;
 </Overview>
   <Category>Backup:</Category>
-  <WebUI> http://[IP]:[PORT:4280]/vnc.html?autoconnect=true&amp;amp;host=[IP]&amp;amp;port=[PORT:4280]</WebUI>
+  <WebUI>http://[IP]:[PORT:4280]/vnc.html?autoconnect=true&amp;amp;host=[IP]&amp;amp;port=[PORT:4280]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/gfjardim/docker-containers/templates/gfjardim/CrashPlan.xml</TemplateURL>
-  <Icon>http://i.imgur.com/F5ckGpm.png</Icon>
+  <Icon>http://i.imgur.com/oa3pNTv.png</Icon>
   <ExtraParams/>
   <DateInstalled>1459254872</DateInstalled>
-  <Description>&amp;lt;img src='http://i.imgur.com/FEDXhd6.png' width='120px'&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
+  <Description>&amp;lt;img src='http://i.imgur.com/gsaAiyq.jpg' width='120px'&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#xD;
 &#xD;
-With unlimited, set-it-and-get-at-it backup to multiple destinations, plus anywhere, anytime access to ALL your files, CrashPlan is the simplest, surest way to protect your digital life.[br][br]&#xD;
+Easy, automatic backup that protects your business data CrashPlan PRO for Small Business - designed for 1 to 99 devices.[br][br]&#xD;
 </Description>
   <Networking>
     <Mode>host</Mode>
