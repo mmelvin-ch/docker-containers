@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.19
-MAINTAINER gfjardim <gfjardim@gmail.com>
+MAINTAINER Murray Melvin <murray@computerheaven.com>
 
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##

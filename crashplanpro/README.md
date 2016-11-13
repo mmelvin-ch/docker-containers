@@ -1,17 +1,17 @@
-# CrashPlan Container with CrashPlan Desktop App
+# CrashPlanPRO Container with CrashPlanPRO Desktop App
 
 
 To run this container, please use this command:
 
 
-    docker run -d --name="CrashPlan" \
+    docker run -d --name="CrashPlanPRO" \
            --net="bridge" \
            -p 4242:4242 \
            -p 4243:4243 \
            -p 4280:4280 \
-           -v "/path/to/your/crashplan/config":"/config":rw \
+           -v "/path/to/your/crashplanpro/config":"/config":rw \
            -v "/path/to/your/manifest/dir":"/backup":rw \
-               gfjardim/crashplan
+               computerheaven/crashplanpro
 
 ###Some supported variables:
 
@@ -53,14 +53,16 @@ This port is used by CrashPlan for computer-to-computer backups.
 
 ####Port 4243 (TCP_PORT_4243): 
 
-This port is used by CrashPlan app to connect to CrashPlan service.
+This port is used by CrashPlan app to connect to CrashPlanPRO service.
 
 ```-p 4243:4243``` or ```-e TCP_PORT_4243=4243```
 
 ####Port 4280 (TCP_PORT_4280):
 
-This port exposes a noVNC instance with the CrashPlan Desktop App. 
+This port exposes a noVNC instance with the CrashPlanPRO Desktop App. 
 
 ```-p 4280:4280``` or ```-e TCP_PORT_4280=4280```
 
 Then navigate to ```http://yourip:4280/vnc.html?autoconnect=true&host=192.168.0.100&port=4280``` to access the graphic user interface.
+
+This container is only a simple modification of the Crashplan container which was built by gfjardim. However, this container is neither endorsed nor supported by gfjardim.
